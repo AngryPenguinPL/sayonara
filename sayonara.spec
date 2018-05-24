@@ -12,7 +12,8 @@ Url:		http://sayonara-player.com
 Source0:	http://sayonara-player.com/sw/%{name}-player-%{version}-%{tarball}.tar.gz
 BuildRequires:	cmake
 BuildRequires:	qt5-linguist-tools
-BuildRequires:	qt5-tools
+#BuildRequires:	qt5-tools
+BuildRequires:  qt5-qttools
 BuildRequires:	pkgconfig(gstreamer-app-1.0)
 BuildRequires:	pkgconfig(libcurl)
 BuildRequires:	pkgconfig(libmtp)
