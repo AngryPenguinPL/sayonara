@@ -57,7 +57,7 @@ music players.
 
 %build
 %cmake_qt5
-%make
+%make_build
 
 %install
 %makeinstall_std -C build
