@@ -56,7 +56,7 @@ music players.
 %setup -q -n %{name}-player
 
 %build
-%cmake_qt5
+%cmake
 %make_build
 
 %install
