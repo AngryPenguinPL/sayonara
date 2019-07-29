@@ -1,16 +1,15 @@
 %define _disable_ld_no_undefined 1
 
-%define tarball git5-20180115
-
 Summary:	A lightweight Qt Audio player
 Name:		sayonara
-Version:	1.0.0
+Version:	1.4.1
 Release:	1
 License:	GPLv3+
 Group:		Sound
 Url:		http://sayonara-player.com
-Source0:	http://sayonara-player.com/sw/%{name}-player-%{version}-%{tarball}.tar.gz
+Source0:	https://sayonara-player.com/sw/sayonara-player-%{version}-stable1.tar.gz
 BuildRequires:	cmake
+BuildRequires:  qmake5
 BuildRequires:	qt5-linguist-tools
 #BuildRequires:	qt5-tools
 BuildRequires:  qt5-qttools
